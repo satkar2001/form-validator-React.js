@@ -17,7 +17,7 @@ export default function Main() {
     const [cpcolor,setcpcolor]=useState('')
 
 
-    function validate(){
+    function validat(){
         if(username.length>=8){
             seteusername('')
             setucolor('green')
@@ -70,7 +70,7 @@ export default function Main() {
                  value={cpassword} onChange={(e)=>{setcpassword(e.target.value)}}/>
                  <p>{ecpassword}</p>
 
-                 <button className="btn btn-success" onClick={validate}>SUBMIT</button>
+                 <button className="btn btn-success" onClick={validat}>SUBMIT</button>
              </div>
 
          </div>
